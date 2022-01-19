@@ -1,0 +1,52 @@
+.product-list-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.product-list-title h2 {
+  margin: 0 ;
+}
+
+.product-list-title button {
+  border: none;
+  padding: 0.5rem 1.5rem;
+  background-color: teal;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 1rem;
+}
+
+.product-list-title button:hover {
+  background-color: rgb(25, 173, 173);
+}
+
+.product-container {
+  display: flex;
+  align-items: center;
+}
+
+.product-container img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.product-edit-btn {
+  border: none;
+  border-radius: 10px;
+  padding: 0.3rem 0.6rem;
+  background-color: #3bb077;
+  color: white;
+  cursor: pointer;
+  margin-right: 1.25rem;
+}
+
+.product-del-btn {
+  color: red;
+  cursor: pointer;
+}

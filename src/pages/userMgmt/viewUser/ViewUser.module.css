@@ -1,0 +1,49 @@
+.user {
+  flex: 4;
+  padding: 1.25rem;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-container h2 {
+  margin: 0;
+}
+
+.title-container button {
+  border: none;
+  padding: 0.5rem 1.5rem;
+  background-color: teal;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 1rem;
+}
+
+.back-button {
+  margin-right: 1rem;
+}
+
+.title-container button:hover {
+  background-color: rgb(25, 173, 173);
+}
+
+.user-details {
+  display: flex;
+  margin-top: 1.25rem;
+}
+
+.user-top-left {
+  flex: 1;
+  padding: 1.25rem;
+  margin-right: 1.5rem;
+}
+
+.user-top-right {
+  flex: 2;
+  padding: 1.25rem 1.5rem;
+}
+

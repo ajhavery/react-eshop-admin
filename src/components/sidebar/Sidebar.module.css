@@ -1,0 +1,50 @@
+.sidebar {
+    flex: 1;
+    position: sticky;
+    height: calc(100vh - 3.5rem);
+    top: 3.5rem;
+    background-color: rgb(251, 251, 255);
+}
+
+.sidebar-wrapper {
+    padding: 0.5rem 1.5rem;
+    color: #555;
+}
+
+.sidebar-menu {
+    margin-bottom: 1rem;
+}
+
+.sidebar-menu h3 {
+    font-size: 0.8rem;
+    color: rgb(187, 186, 186);
+}
+
+.sidebar-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-menu li {
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.sidebar-menu li:hover,
+.sidebar-menu li:active {
+    background-color: rgb(240, 240, 250);
+}
+
+.sidebar-menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.sidebar-icons {
+    margin-right: 0.5rem;
+    font-size: 1.25rem !important;
+    /* Note: !important is required to change size of material icons  */
+}

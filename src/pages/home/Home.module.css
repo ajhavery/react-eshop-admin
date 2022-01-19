@@ -1,0 +1,17 @@
+.home {
+    flex: 4;
+    padding-top: 1.25rem;
+}
+
+.home-widget {
+    display: flex;
+    margin: 1.25rem;
+}
+
+.box {
+    margin: 1.25rem;
+}
+
+.chart {
+    padding: 1.5rem;
+}

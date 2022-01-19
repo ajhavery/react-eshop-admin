@@ -1,0 +1,55 @@
+.widget-large {
+  flex: 2;
+  padding: 1.25rem;
+}
+
+.widget-large table {
+  width: 100%;
+  border-spacing: 1.25rem;
+}
+
+.widget-large th {
+  text-align: left;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.thin {
+  font-weight: 300;
+}
+
+.widget-large img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.widget-large button {
+  padding: 0.3rem 0.5rem;
+  border: none;
+  border-radius: 0.6rem;
+}
+
+.Approved {
+  background-color: #e5faf2;
+  color: #3bb077;
+}
+
+.Declined {
+  background-color: #fff0f1;
+  color: #d95087;
+}
+
+.Pending {
+  background-color: #ebf1fe;
+  color: #2a7ade;
+}

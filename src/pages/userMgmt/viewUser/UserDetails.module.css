@@ -1,0 +1,47 @@
+.user-show-top {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-show-image {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .user-show-top-title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.25rem;
+  }
+  
+  .user-show-username {
+      font-weight: 600;
+  }
+  
+  .user-show-jobtitle {
+      font-weight: 300;
+  }
+  
+  .user-show-bottom {
+      margin-top: 1.25rem;
+  }
+  
+  .user-account-title {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: rgb(175, 170, 170);
+  }
+  
+  .user-info-row {
+      display: flex;
+      align-items: center;
+      margin: 1.25rem 0;
+      color: #444;
+  }
+  
+  .user-info-icon {
+      font-size: irem !important;
+      margin-right: 1rem;
+  }

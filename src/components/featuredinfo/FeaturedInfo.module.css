@@ -1,0 +1,45 @@
+.featured {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.featured-item {
+  flex: 1;
+  margin: 0 1.25rem;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.featured-money-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.featured-money-container h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0.8rem 0;
+}
+
+.featured-money-container p {
+  display: flex;
+  align-items: center;
+}
+
+.featured-icon {
+    font-size: 1rem;
+    margin-left: 0.3rem;
+    color: green;
+}
+
+.negative {
+    color: red;
+}
+
+.featured-sub {
+    color: gray;
+    font-size: 1rem;
+}

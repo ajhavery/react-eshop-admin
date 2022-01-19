@@ -1,0 +1,86 @@
+.container {
+    flex: 4;
+    padding: 1.25rem;
+}
+
+.head-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head-container button {
+    border: none;
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(255, 57, 57);
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+}
+
+.head-container button:hover {
+    background-color: rgb(252, 59, 59);
+}
+
+.new-user-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.new-user-item {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.6rem;
+    margin-right: 1.25rem;
+}
+
+.new-user-item label {
+    margin-bottom: 0.6rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: gray;
+}
+
+.new-user-item input {
+    height: 1.25rem;
+    padding: 0.6rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.new-user-gender input {
+    margin-top: 1rem;
+}
+
+.new-user-gender label {
+    margin: 0.6rem;
+    font-size: 1rem;
+    color: #555;
+}
+
+.new-user-item select {
+    height: 2.25rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 0.6rem;
+    color: gray;
+}
+
+.new-user-btn {
+    width: 15rem;
+    border: none;
+    background-color: purple;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.new-user-btn:hover {
+    background-color: rgb(175, 0, 175);
+}
